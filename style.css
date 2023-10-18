@@ -1,6 +1,72 @@
-/* Barra de navegacion */
+/* Archivo CSS personalizado, mete aquí los estilos personalizados que tengas */
 
+/* Barra de navegacion */
 .navbar {
   padding: 2rem;
   background-color: #f4f5f6;
 }
+
+@media screen and (max-width: 767px) {
+  .navbar-brand{
+    display: none;
+  }
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*Contenedor y texto de titulo y textos */
+
+.texto {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Arial', sans-serif; 
+  border: none;
+}
+
+.texto2 {
+  padding-top: 5px;
+  border: none;
+  font-size: 16px;
+  max-width: 750px;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+
+.carrera {
+  background-color: #f4f5f6;
+  min-height: 300px;
+  text-align: center;
+}
+
+@media screen and (min-width: 200px){
+  .carrera{
+    padding-top: 5rem;
+  }
+    
+}
+
+
+.carrera-info {
+  min-width: 5px;
+}
+
+.carrera-texto {
+  padding-top: 5px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
