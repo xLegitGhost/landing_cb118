@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CBTIS 118 | Carreras</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">    
 </head>
 <body>
@@ -45,7 +47,7 @@
       </nav>
 
       <!-- QUE SON ESPECIALIDADES  -->
-      <div class="container text-center align-items-stretch">
+      <div class="inicio container text-center align-items-stretch">
         <h1 class="">¿Qué son las carreras?</h1>
         <p class="text-center">
           Las especialidades son carreras que sirven para desarrollar al estudiante academicamente en algo en que ellos
@@ -61,11 +63,10 @@
       <!-- ESPECIALIDADES SECCIONES  -->
 
       <!-- ELECTRONICA  -->
-      <section id="electronica" class="carrera">
-        <div>
-          <div class="row carrera-info">
+      <section id="electronica" class="carrera container-fluid mb-sm-5">
+          <div class="row carrera-info mx-sm-5">
             <div class="col-12 col-md-6">
-              <h1 class="">Electrónica</h1>
+              <h1 class=""><i class="bi bi-lightbulb"></i> Electrónica</h1> 
               <div class="carrera-texto">
                 <p class="texto2">
                   La electrónica desarrolla en la actualidad una gran variedad de tareas.
@@ -75,24 +76,27 @@
                 </p>
               </div>
             </div>
+            
             <div class="col-12 col-md-6">
-              <img src="img/electronica.jpg" class="rounded mx-auto" width="400px" height="300px" alt="img electronica">
+              <div class="ratio ratio-16x9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HvHYbelCxpc" frameborder="0" allowfullscreen></iframe>
+              </div>
             </div>
           </div>
-        </div>
       </section>
 
       <!-- LOGISTICA  -->
-      <section id="logistica" class="carrera">
-        <div>
-          <div class="row carrera-info">
-            <div class="col-12  col-md-6">
-              <img src="img/logistica.png" class="rounded mx-auto" width="400px" height="300px" alt="img logisticaa">
+      <section id="logistica" class="carrera container-fluid mb-sm-5">
+          <div class="row carrera-info mx-sm-5">
+            <div class="col-12 col-md-6">
+              <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wSpdHax6Ad8" frameborder="0" allowfullscreen></iframe>
+              </div>
             </div>
             <div class="col-12 col-md-6">
-              <h1 class="">Logistica</h1>
+              <h1 class=""><i class="bi bi-truck"></i> Logistica</h1>
               <div class="carrera-texto">
-                <p class="carrera-texto texto2 text-center">
+                <p class="texto2">
                 Es un término cada vez más utilizado en nuestros días. Procede del
                 concepto militar francés 'logistique', donde se empezo a utilizar para denominar el transporte, el suministro y el alojamiento de las tropas.
                 Actualmente se utilizá también en el ámbito empresarial. Principalmente en los sectores de marketing y distribución.
@@ -103,16 +107,13 @@
               </div>
             </div>
           </div>
-        </div>
       </section>
 
       <!-- MECANICA INDUSTRIAL  -->
-      <section id="mecanica" class="carrera">
-        <div>
-          <div>
-            <div class="row carrera-info">
+      <section id="mecanica" class="carrera container-fluid mb-sm-5">
+            <div class="row carrera-info mx-sm-5">
               <div class="col-12 col-md-6">
-                <h1 class="">Mécanica Industrial</h1>
+                <h1 class=""><i class="bi bi-gear"></i> Mécanica Industrial</h1>
                 <div class="carrera-texto">
                   <p class="texto2">
                     Es un arte que consiste en la construcción y mantenimiento de las máquinas que se dedican a alguna industria o empresa relacionada con la ingeniería, que tienen como finalidad transformar las materias primas en productos elaborados, de forma masiva.
@@ -121,24 +122,26 @@
                 </div>
               </div>
               <div class="col-12 col-md-6">
-                <img src="img/mecanica.jpg" class="rounded mx-auto" width="400px" height="300px" alt="img mecanica industrial">
+                <div class="video-container">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/qUVlCmty8v0" frameborder="0" allowfullscreen></iframe>
+                </div>
               </div>
             </div>
-          </div>
       </section>
 
       <!-- Mecatrónica  -->
 
-      <section id="mecatronica" class="carrera">
-        <div>
-          <div class="row carrera-info">
+      <section id="mecatronica" class="carrera container-fluid mb-sm-5">
+          <div class="row carrera-info mx-sm-5">
             <div class="col-12 col-md-6">
-              <img src="img/mecatronica.jpeg" class="rounded mx-auto" width="400px" height="300px" alt="img mecatronica">
+              <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BrFdsdZWPiI" frameborder="0" allowfullscreen></iframe>
+              </div>
             </div>
             <div class="col-12 col-md-6">
-              <h1 class="">Mecatrónica</h1>
+              <h1 class=""><i class="bi bi-robot"></i> Mecatrónica</h1>
               <div class="carrera-texto">
-                <p class="carrera-texto texto2 text-center">
+                <p class="texto2">
                 Es un área multidisciplinar, ya que incorpora elementos de la electrónica, la mecánica, la robótica, sistemas de computación y fabricación. También se estudian los distintos sentores y el funcionamiento de máquinas industriales, procesos de fabricación, etc.
                 De esta manera, se trata de un proceso de integración de
                 tecnologías en sinergia con la misión de mejorar la funcionalidad de un producto. 
@@ -146,16 +149,13 @@
               </div>
             </div>
           </div>
-        </div>
       </section>
       
       <!-- Programación -->
-      <section id="programacion" class="carrera">
-        <div>
-          <div>
-            <div class="row carrera-info">
+      <section id="programacion" class="carrera container-fluid mb-sm-5">
+            <div class="row carrera-info mx-sm-5">
               <div class="col-12 col-md-6">
-                <h1 class="">Programación</h1>
+                <h1 class=""><i class="bi bi-code-slash"></i> Programación</h1>
                 <div class="carrera-texto">
                   <p class="texto2">
                     Es el proceso de tomar un algoritmo y codificarlo en una notación, un 
@@ -168,24 +168,26 @@
                 </div>
               </div>
               <div class="col-12 col-md-6">
-                <img src="img/programacion.jpg" class="rounded mx-auto" width="400px" height="300px" alt="img programacion">
+                <div class="video-container">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/uCbOTtyo01M" frameborder="0" allowfullscreen></iframe>
+                </div>
               </div>
             </div>
-          </div>
       </section>
 
       <!-- Puericultura -->
 
-      <section id="puericultura" class="carrera">
-        <div>
-          <div class="row carrera-info">
+      <section id="puericultura" class="carrera container-fluid mb-sm-5">
+          <div class="row carrera-info mx-sm-5">
             <div class="col-12 col-md-6">
-              <img src="img/puericultura.webp" class="rounded mx-auto" width="400px" height="300px" alt="img puericultura">
+              <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dTZ843T9S_g" frameborder="0" allowfullscreen></iframe>
+              </div>
             </div>
             <div class="col-12 col-md-6">
-              <h1 class="">Puericultura</h1>
+              <h1 class=""><i class="bi bi-heart-pulse"></i> Puericultura</h1>
               <div class="carrera-texto">
-                <p class="carrera-texto texto2 text-center">
+                <p class="texto2">
                    En esta carrera tendrás los conocimientos necesarios para atender al infante de 0 a 6
                    años de forma integral, con un enfoque multidisciplinario, basado en saberes relacionados
                    en medicina, pedagogía, psicología y ludología, permitiéndote realizar actividades para
@@ -197,17 +199,14 @@
               </div>
             </div>
           </div>
-        </div>
       </section>
 
       <!-- Plasticos -->
 
-      <section id="plasticos" class="carrera">
-        <div>
-          <div>
-            <div class="row carrera-info">
+      <section id="plasticos" class="carrera container-fluid mb-sm-5">
+            <div class="row carrera-info mx-sm-5">
               <div class="col-12 col-md-6">
-                <h1 class="">Transformación de plásticos</h1>
+                <h1 class=""><i class="bi bi-recycle"></i> Transformación de plásticos</h1>
                 <div class="carrera-texto">
                   <p class="texto2">
                     Transformación significa el resultado de un proceso de cambio de forma. Sucede cuando una cosa, hecho o idea es
@@ -217,17 +216,63 @@
                 </div>
               </div>
               <div class="col-12 col-md-6">
-                <img src="img/plasticos.jpeg" class="rounded mx-auto" width="400px" height="300px" alt="img plasticos">
+                <div class="video-container">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/sOUMLLBAFa8" frameborder="0" allowfullscreen></iframe>
+                </div>
               </div>
             </div>
-          </div>
       </section>
 
-            
+      <!-- FOOTER  -->
+      <div class="footer container-fluid text-center">
+        <div class="row">
+          <div class="col-6">
+            Programadores:
+            <p><i class="bi bi-braces-asterisk"></i> Web Desarrollada por <a href="https://www.instagram.com/x.urielceh.x/">Uriel Ramírez</a> </p>
+        
+          </div>
+          <div class="col-6">
+            Puedes encontrar más información en nuestra página de facebook.
+            <p><i class="bi bi-facebook"></i> <a href="https://www.facebook.com/profile.php?id=100064903291477">CBTIS 118 Corregidora-Oficial</a></p>
+          </div>
+          
+        </div>
+        &copy; CBTIS 118 - Todos los derechos reservados. 2023
+      </div>
       
-
-
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+      <script>
+
+      self.addEventListener('fetch', event => {
+          event.respondWith(async function() {
+              const preloadResponse = await event.preloadResponse;
+              if (preloadResponse) {
+                  return preloadResponse;
+              }
+              const networkResponse = await fetch(event.request);
+              return networkResponse;
+          }());
+      });
+
+        //visual scroll
+        $(document).ready(function(){
+          $('li a').click(function(event){
+              event.preventDefault();
+              $('html, body').animate({
+                  scrollTop: $($.attr(this, 'href')).offset().top
+              }, 800);
+          });
+        });
+
+        //renderizacion de frames
+        $(document).ready(function() {
+          $('iframe').attr('src', function() {
+              return $(this).data('src');
+          });
+        });
+      </script>
+
+
+    </body>
 
 </html>
